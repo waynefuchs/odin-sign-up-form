@@ -136,3 +136,26 @@ a:visited {
     text-decoration: underline;
     color: var(--color-light);
 }
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    outline-width: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    outline-color: skyblue;
+}
+
+input[type="password"].error {
+    outline-color: red;
+    border: 1px solid red;
+}
+label.error {
+    color: red;
+    letter-spacing: 0;
+    font-size: 10px;
+    text-transform: none;
+    font-weight: 400;
+}
